@@ -1,5 +1,6 @@
 {
   "name": "two",
+  "version": "0.0.0",
   "dependencies": {
     "one": "workspace:*",
     "react": "17.0.1"

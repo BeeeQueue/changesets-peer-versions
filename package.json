@@ -1,14 +1,15 @@
 {
-  "name": "renovate-workspaces",
+  "name": "changesets-peer-versions",
   "version": "1.0.0",
   "main": "index.js",
   "author": "BeeeQueue",
   "license": "MIT",
-  "dependencies": {
-    "lerna": "4.0.0"
-  },
   "workspaces": [
     "packages/*",
     "examples/*"
-  ]
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.16.0",
+    "lerna": "4.0.0"
+  }
 }
