@@ -65,7 +65,7 @@ __metadata:
   dependencies:
     react: 17.0.1
   peerDependencies:
-    "@beequeue/one": 1.0.0
+    "@beequeue/one": 1.1.0
   languageName: unknown
   linkType: soft
 
@@ -104,7 +104,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/cli@npm:^2.16.0":
+"@changesets/cli@npm:2.16.0":
   version: 2.16.0
   resolution: "@changesets/cli@npm:2.16.0"
   dependencies:
@@ -1874,7 +1874,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "changesets-peer-versions@workspace:."
   dependencies:
-    "@changesets/cli": ^2.16.0
+    "@changesets/cli": 2.16.0
     lerna: 4.0.0
   languageName: unknown
   linkType: soft
