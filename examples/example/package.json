@@ -4,6 +4,6 @@
   "dependencies": {
     "@beequeue/one": "*",
     "@beequeue/two": "*",
-    "react": "17.0.1"
+    "react": "17.0.2"
   }
 }
