@@ -1,0 +1,8 @@
+{
+  "extends": ["config:js-app"],
+  "prConcurrentLimit": 5,
+  "branchConcurrentLimit": 5,
+  "labels": ["dependencies"],
+  "automerge": false
+}
+  
