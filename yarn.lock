@@ -41,6 +41,34 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@beequeue/example-project@workspace:examples/example":
+  version: 0.0.0-use.local
+  resolution: "@beequeue/example-project@workspace:examples/example"
+  dependencies:
+    "@beequeue/one": "*"
+    "@beequeue/two": "*"
+    react: 17.0.1
+  languageName: unknown
+  linkType: soft
+
+"@beequeue/one@*, @beequeue/one@workspace:packages/one":
+  version: 0.0.0-use.local
+  resolution: "@beequeue/one@workspace:packages/one"
+  dependencies:
+    react: 17.0.1
+  languageName: unknown
+  linkType: soft
+
+"@beequeue/two@*, @beequeue/two@workspace:packages/two":
+  version: 0.0.0-use.local
+  resolution: "@beequeue/two@workspace:packages/two"
+  dependencies:
+    react: 17.0.1
+  peerDependencies:
+    "@beequeue/one": 1.0.0
+  languageName: unknown
+  linkType: soft
+
 "@changesets/apply-release-plan@npm:^5.0.0":
   version: 5.0.0
   resolution: "@changesets/apply-release-plan@npm:5.0.0"
@@ -2561,16 +2589,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"example-project@workspace:examples/example":
-  version: 0.0.0-use.local
-  resolution: "example-project@workspace:examples/example"
-  dependencies:
-    one: "workspace:*"
-    react: 17.0.1
-    two: "workspace:*"
-  languageName: unknown
-  linkType: soft
-
 "execa@npm:^0.7.0":
   version: 0.7.0
   resolution: "execa@npm:0.7.0"
@@ -4670,14 +4688,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"one@workspace:*, one@workspace:packages/one":
-  version: 0.0.0-use.local
-  resolution: "one@workspace:packages/one"
-  dependencies:
-    react: 17.0.1
-  languageName: unknown
-  linkType: soft
-
 "onetime@npm:^5.1.0, onetime@npm:^5.1.2":
   version: 5.1.2
   resolution: "onetime@npm:5.1.2"
@@ -6349,15 +6359,6 @@ __metadata:
   checksum: 6061daba1724f59473d99a7bb82e13f211cdf6e31315510ae9656fefd4779851cb927adad90f3b488c8ed77c106adc0421ea8055f6f976ff21b27c5c4e918487
   languageName: node
   linkType: hard
-
-"two@workspace:*, two@workspace:packages/two":
-  version: 0.0.0-use.local
-  resolution: "two@workspace:packages/two"
-  dependencies:
-    one: "workspace:*"
-    react: 17.0.1
-  languageName: unknown
-  linkType: soft
 
 "type-fest@npm:^0.13.1":
   version: 0.13.1

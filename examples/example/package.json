@@ -1,8 +1,9 @@
 {
-  "name": "example-project",
+  "name": "@beequeue/example-project",
+  "version": "0.1.0",
   "dependencies": {
-    "one": "workspace:*",
-    "react": "17.0.1",
-    "two": "workspace:*"
+    "@beequeue/one": "*",
+    "@beequeue/two": "*",
+    "react": "17.0.1"
   }
 }
