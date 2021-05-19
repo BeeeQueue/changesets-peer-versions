@@ -1,8 +1,8 @@
 {
   "name": "@beequeue/two",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "peerDependencies": {
-    "@beequeue/one": "1.0.0"
+    "@beequeue/one": "1.1.0"
   },
   "dependencies": {
     "react": "17.0.1"
