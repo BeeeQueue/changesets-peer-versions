@@ -47,7 +47,7 @@ __metadata:
   dependencies:
     "@beequeue/one": "*"
     "@beequeue/two": "*"
-    react: 17.0.1
+    react: 17.0.2
   languageName: unknown
   linkType: soft
 
@@ -55,7 +55,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@beequeue/one@workspace:packages/one"
   dependencies:
-    react: 17.0.1
+    react: 17.0.2
   languageName: unknown
   linkType: soft
 
@@ -63,9 +63,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@beequeue/two@workspace:packages/two"
   dependencies:
-    react: 17.0.1
+    react: 17.0.2
   peerDependencies:
-    "@beequeue/one": 1.0.0
+    "@beequeue/one": 1.1.0
   languageName: unknown
   linkType: soft
 
@@ -5260,13 +5260,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:17.0.1":
-  version: 17.0.1
-  resolution: "react@npm:17.0.1"
+"react@npm:17.0.2":
+  version: 17.0.2
+  resolution: "react@npm:17.0.2"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-  checksum: 83b9df9529a2b489f00a4eaa608fc7d55518b258e046c100344ae068713e43ae64e477a140f87e38cfe75489bcfd26d27fce5818f89f4ec41bdbda7ead4bb426
+  checksum: b254cc17ce3011788330f7bbf383ab653c6848902d7936a87b09d835d091e3f295f7e9dd1597c6daac5dc80f90e778c8230218ba8ad599f74adcc11e33b9d61b
   languageName: node
   linkType: hard
 
