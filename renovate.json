@@ -3,6 +3,12 @@
   "prConcurrentLimit": 5,
   "branchConcurrentLimit": 5,
   "labels": ["dependencies"],
-  "automerge": false
+  "automerge": false,
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/__tests__/**",
+    "**/__fixtures__/**"
+  ]
 }
   
