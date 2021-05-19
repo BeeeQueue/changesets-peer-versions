@@ -1,0 +1,8 @@
+{
+  "name": "example-project",
+  "dependencies": {
+    "one": "workspace:*",
+    "react": "17.0.1",
+    "two": "workspace:*"
+  }
+}
